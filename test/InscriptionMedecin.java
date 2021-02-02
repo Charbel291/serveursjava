@@ -20,7 +20,7 @@ public class InscriptionMedecin extends HttpServlet {
 	public static final String ATT_USER = "medecin";
 	public static final String ATT_FORM = "form";
 
-	public static final String VUE = "/WEB-INF/inscriptionMedecin.jsp";
+	public static final String VUE = "/WEB-INF/compteMedecin.jsp";
     /**
      * @see HttpServlet#HttpServlet()
      */

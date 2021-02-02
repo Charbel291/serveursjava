@@ -48,9 +48,9 @@
 </head>
 <body>
     
-    <form method="post" action="inscriptionMedecin">
+    <form method="post" action="compteMedecin">
         <fieldset>
-            <legend>Inscription du medecin</legend>
+            <legend>Creation d'un compte du medecin</legend>
             
             <label for="nom">Nom:</label>
             <input type="text" id="nom" name="nom" value="<c:out value="${medecin.nom}" />" size="20" maxlength="20" />
@@ -83,7 +83,7 @@
             <span class="erreur">${form.erreurs['confirmation']}</span><br />
             
             <p class="info">${ form.resultat }</p>
-            <input type="submit" value="InscriptionMedecin" class="sansLabel" />
+            <input type="submit" value="Creer compte" class="sansLabel" />
             <!--<p class="${empty form.erreurs ? 'succes' : 'erreur' }">${form.resultat}</p>-->
             <input type="reset" value = "Remettre a zero " /><br />
         </fieldset>
